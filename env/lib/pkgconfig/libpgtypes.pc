@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.15
+Requires: 
+Requires.private: 
+Cflags: -I/Users/gdasc/Desktop/Sample_project/env/include
+Libs: -L/Users/gdasc/Desktop/Sample_project/env/lib -lpgtypes
+Libs.private: -L/Users/gdasc/Desktop/Sample_project/env/lib -lpgcommon -lpgport -lm
